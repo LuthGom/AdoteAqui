@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+    
+}
+body {
+    margin: 0;
+}
+body:not(header) {
+    background: linear-gradient( #00a8f3, #ffa07a, #2e8b57)
+}
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-around;   
+    min-height: 130px;
+    background: #00a8f3;
+ }
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color:#ffa07a;
+    width: 50%;
+    height: 130px;
+    color: floralwhite;
+    border-radius: 0 100px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    font-style: oblique;
+    align-items: center;
+}
+.textinho {
+    display: flex;
+    border: double;
+    border-radius: 0 100px;
+    height: 70%;
+    width: 85%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.textinho:hover {
+    font-size: 75px;
+    color: black;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background: #2e8b57;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 100px 0;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    border: 5px double;
+    border-radius: 100px 0;
+    width: 20%;
+}
+a:nth-child(4) {
+    width: 40%;
+}
+a:nth-child(5) {
+    width: 30%;
+}
+a:hover {
+    color: black;
+    font-size: 20px;
+}
+a:nth-child(4):hover {
+    color: black;
+    font-size: 20px;
+    width: 50%;
+}
+a:nth-child(5):hover {
+    color: black;
+    font-size: 20px;
+    width: 40%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.gatos, .dogs-1, .dogs-2, .dogs-3 {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    justify-content: space-evenly;
+}
+img {
+    border: 2px dotted;
+    height: 100px;
+    margin-bottom: 10px;
+}
