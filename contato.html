@@ -1,8 +1,9 @@
-<!--Arquivo do Porquê adotar um Pet-->
 <!DOCTYPE html>
+<!--Página de contato-->
+
 <html lang="pt-br">
 
-<!--Informações do conteúdo da página-->
+<!--Informações da pagina-->
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     <link rel="stylesheet" href="adoteaqui.css">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Teko:wght@300&display=swap" rel="stylesheet">
 
-<!--Conteúdo Visível da página-->
+<!--Conteúdo visivel da pagina-->
 
 <body>
 
@@ -36,12 +37,21 @@
 <!--Conteúdo-->
 
     <div class="padrao-nav">
-        <h2>Por que adotar e não comprar?</h2>
+        <h2>Entre em Contato Conosco</h2>
+    <form class="formulario">
+        <label for="nome">Nome Completo</label>
+        <input id="nome" type="text" placeholder="Nome e sobrenome">
 
-        <p> Adotar um pet é valorizar a vida de um ser vivo. É ser gentil com aquela vida que você escolhe amar e cuidar.
-            Enquanto que comprar é fazer do pet um produto, algo que vale apenas tanto quanto o dinheiro pode pagar.
-            Animais são seres vivos e a vida deles tem VALOR, mas não tem PREÇO.</p>
-            <a class=adoteaqui href="cadastrese.html"><button>🐶Adote Aqui!🐈</button></a>
+        <label for="email">Email</label>
+        <input id="email"type="email" placeholder="exemplo@resilipet.com">
+        
+        <label for="telefone">Celular/WhatsApp</label>
+        <input id="telefone" type="tel" placeholder="(xx) xxxxx-xxxx">
+
+        <label for="mensagem">mensagem</label>
+        <textarea cols="30" rows="15" id="mensagem" placeholder="Escreva aqui sua mensagem"></textarea>
+    </form>
+    <button>🐶Enviar</button>
     </div>
 
 <!--Rodapé-->
@@ -50,4 +60,4 @@
         <p>Todos os direitos reservados.©</p>
     </footer>
 </body>
-</html>
+</html> 
